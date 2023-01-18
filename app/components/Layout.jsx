@@ -34,7 +34,7 @@ export function Layout({ children, layout }) {
           </a>
         </div>
         <Header
-          title={"[STAGING OXYGEN] - " + layout?.shop.name ?? "Hydrogen"}
+          title={"[STAGING OXYGEN ] - " + layout?.shop.name ?? "Hydrogen"}
           menu={layout?.headerMenu}
         />
 
