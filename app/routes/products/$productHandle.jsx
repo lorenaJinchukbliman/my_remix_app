@@ -107,7 +107,7 @@ export default function Product() {
 
                 {shippingPolicy?.body && (
                   <ProductDetail
-                    title="Shipping"
+                    title="Shipping LORENA"
                     content={getExcerpt(shippingPolicy.body)}
                     learnMore={`/policies/${shippingPolicy.handle}`}
                   />
